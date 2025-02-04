@@ -31,7 +31,7 @@ cornerstone library. This function accept a `scheme` which the image loader func
 
 ### CornerstoneDICOMImageLoader
 
-[`CornerstoneDICOMImageLoader`](https://github.com/cornerstonejs/cornerstone3D/tree/main/packages/dicomImageLoader) is a cornerstone image loader that loads DICOM images from a WADO-compliant server. You can install it and initialize to via the following code. Internally, `CornerstoneDICOMImageLoader` registers its `wado-rs` and `wado-uri` imageLoaders to `Cornerstone3D` and uses [`dicomParser`](https://github.com/cornerstonejs/dicomParser) to parse the the metadata and pixel data.
+[`CornerstoneDICOMImageLoader`](https://github.com/cornerstonejs/cornerstone3D/tree/main/packages/dicomImageLoader) is a cornerstone image loader that loads DICOM images from a WADO-compliant server. You can install it and initialize to via the following code. Internally, `CornerstoneDICOMImageLoader` registers its `wado-rs` and `wado-uri` imageLoaders to `Cornerstone3D` and uses [`dicomParser`](https://github.com/cornerstonejs/dicomParser) to parse the metadata and pixel data.
 
 ```js
 import { init } from '@cornerstonejs/dicom-image-loader';
